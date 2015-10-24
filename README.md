@@ -74,7 +74,7 @@ As I mentioned in step 1, setting up the router is perhaps the most important pa
 
 
 ## Step 4: Configure the teamCtrl.js File
-* Head over to your teamCtrl.js file. Notice we should have four things that are being passed into the controller. $scope, $routeParams to give us access to :team in the url, teamService which gives us access to getting the teams data and adding new games, and teamData which we should have added last step which gives us the data the is being returned from teamService.getData in our resolve block in the app.js file.
+* Head over to your teamCtrl.js file. Notice we should have four things that are being passed into the controller. $scope, $routeParams to give us access to :team in the url, teamService which gives us access to getting the teams data and adding new games, and teamData which we should have added last step which gives us the data that is being returned from teamService.getData in our resolve block in the app.js file.
 * First thing we want to do is get the data (teamData) that is being resolved in our app.js file and put that data on the scope. So in your controller, set teamData (that is being passed in) equal to $scope.teamData so now that data is on our scope and can be accessed in the view.
 * Once you do that create a property on the $scope object called newGame and set it equal to an empty object. This is the object that is going to be passed to teamSerivce.addNewGame later on.  
 
