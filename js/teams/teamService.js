@@ -6,7 +6,7 @@ app.service('teamService', function($http, $q){
 
 		var url = "https://api.parse.com/1/classes/" + gameObj.homeTeam;
 
-		if (parseInt(gameObj.homeTeamScore) >= parseInt(gameObj.opponentScore)) {
+		if(parseInt(gameObj.homeTeamScore) >= parseInt(gameObj.opponentScore)) {
 			gameObj.won = true;
 		} else {
 			gameObj.won = false;

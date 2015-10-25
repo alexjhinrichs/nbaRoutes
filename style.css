@@ -135,3 +135,18 @@ html, body {
   width: 150px;
   margin-bottom: 15px;
 }
+
+.homeContainer {
+  display: flex;
+  width: 100%;
+}
+
+.homeContainer img {
+  width: 300px;
+  height: 200px;
+}
+
+.mid {
+  margin: 0 5px;
+}
+
